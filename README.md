@@ -35,7 +35,7 @@ Review each plugin's documentation for any additional setup requirements or post
 *   **Toggle Terminal**: Press **<C-;>** to toggle the terminal window.
 *   **Navigate Windows**: Use **\<leader\>n**  followed by **h**, **j**, **k**, **l** for directional window navigation.
 
-**Note:** leader is set to space by default  
+**Note:** leader is set to space by default. 
     
 
 ## Plugin Manager
