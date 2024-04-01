@@ -20,8 +20,12 @@ function _G.ToggleTerminal()
     end
 end
 
--- Set up autocommands for terminal behavior
 vim.api.nvim_create_autocmd("TermOpen", {
     pattern = "*",
-    command = "startinsert | setlocal nonumber norelativenumber",
+    callback = function()
+	vim.opt_local.number = false
+        vim.opt_local.relativenumber = false
+        vim.cmd("startinsert")
+    end,
 })
+
