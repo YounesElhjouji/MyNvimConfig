@@ -31,9 +31,9 @@ Review each plugin's documentation for any additional setup requirements or post
 
 ## Usage
 
-*  **Toggle NvimTree**: Use **<leader>n** to open or close the NvimTree file explorer. (leader is set to space by default)
+*  **Toggle NvimTree**: Use **\<leader\>n** to open or close the NvimTree file explorer. (leader is set to space by default)
 *   **Toggle Terminal**: Press **<C-;>** to toggle the terminal window.
-*   **Navigate Windows**: Use **<leader>n**  followed by **h**, **j**, **k**, **l** for directional window navigation.
+*   **Navigate Windows**: Use **<\leader\>n**  followed by **h**, **j**, **k**, **l** for directional window navigation.
     
 
 ## Plugin Manager
